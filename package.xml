@@ -23,11 +23,11 @@
   <name>nvblox_rviz_plugin</name>
   <version>0.31.0</version>
   <description>RViz visualization plugin for Nvblox meshes</description>
-  
+
   <maintainer email="helen.oleynikova@ethz-asl.ch">Helen Oleynikova</maintainer>
-  <maintainer email="tutuna@ethz.ch">Turcan Tuna</maintainer> 
+  <maintainer email="tutuna@ethz.ch">Turcan Tuna</maintainer>
   <license>Apache-2.0</license>
-  <url type="website">https://developer.nvidia.com/isaac-ros/</url>   
+  <url type="website">https://developer.nvidia.com/isaac-ros/</url>
   <author>Helen Oleynikova</author>
   <author>Alexander Millane</author>
 
@@ -44,6 +44,7 @@
   <exec_depend>nvblox_msgs</exec_depend>
   <exec_depend>geometry_msgs</exec_depend>
   <exec_depend>std_msgs</exec_depend>
+  <depend>qtbase5-dev</depend>
 
   <export>
     <rviz plugin="${prefix}/plugins_description.xml"/>
